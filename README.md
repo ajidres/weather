@@ -10,7 +10,7 @@ This is a Flutter Application to select cities from a list as favorites and know
 ## Installation
 Clone this repository
 ```bash
-git clone https://github.com/ajidres/
+git clone https://github.com/ajidres/weather
 ```
 
 ## IDE
