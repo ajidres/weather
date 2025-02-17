@@ -4,9 +4,8 @@ This is a Flutter Application to select cities from a list as favorites and know
 
 
 
-<img src='./assets/screen1.png' width=30%> <img src='./assets/screen1.png' width=30%>
-<img src='./assets/screen2.png' width=30%> <img src='./assets/screen2.png' width=30%>
-<img src='./assets/screen3.png' width=30%> <img src='./assets/screen3.png' width=30%>
+<img src='./assets/screen1.png' width=30%> <img src='./assets/screen2.png' width=30%>
+<img src='./assets/screen3.png' width=30%> 
 
 ## Installation
 Clone this repository
