@@ -49,7 +49,26 @@ class HomeScreen extends StatelessWidget {
                         ),
                       )
                     ] else
-                      ...[],
+                      ...[
+                        Padding(
+                          padding: const EdgeInsets.all(24),
+                          child: Row(
+                            children: [
+                              Image.asset(
+                                'assets/icon.jpeg',
+                                width: 40,
+                                fit: BoxFit.fill,
+                              ),
+                              SizedBox(width: 10,),
+                              Expanded(child: Text(
+                                'Aqui se mostrara el clima de tus ciudades favoritas',
+                                style: Theme.of(context).textTheme.titleSmall,
+                                textAlign: TextAlign.center,
+                              )),
+                            ],
+                          ),
+                        )
+                      ],
                   ],
                 );
               },
@@ -114,7 +133,26 @@ class HomeScreen extends StatelessWidget {
                         ),
                       )
                     ] else
-                      ...[]
+                      ...[
+                        Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                'assets/logo.png',
+                                width: 120,
+                                fit: BoxFit.fill,
+                              ),
+                              SizedBox(width: 10,),
+                              Text(
+                                'Aqui se mostrara tus ciudades favoritas',
+                                style: Theme.of(context).textTheme.titleSmall,
+                              ),
+                            ],
+                          ),
+                        )
+                      ]
                   ],
                 );
               },
